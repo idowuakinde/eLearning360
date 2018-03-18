@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="fill_parent"
+    android:background="#ff62071d"
+    android:id="@+id/FlyOutMenu"
+    android:padding="4dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/LinearLayoutScrollViewChild">
+            <TextView
+                android:text="FOR JUNIOR SCHOOL PUPILS..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/textViewPry1"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/viewThick"
+                android:background="#ffc1c1c1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:text="Watch/download videos:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutPry1"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewPry1_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="K-12 Science Out Loud Season 1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewPry1_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutPry2"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewPry2_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="MIT Blossoms Video Library"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewPry2_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <TextView
+                android:text="FOR HIGH SCHOOL PUPILS..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:id="@+id/textViewSec1"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/viewThick"
+                android:background="#ffc1c1c1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:text="Download textbooks for free:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec1"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_notemonk"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec1_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Notemonk"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec1_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <TextView
+                android:text="Watch/download video lessons:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec2"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec2_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Physics Video Lessons"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec2_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec3"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec3_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Chemistry Video Lessons"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec3_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <TextView
+                android:text="Access full course contents:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec4"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec4_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Biology Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec4_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec5"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec5_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Chemistry Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec5_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec6"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec6_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Engineering Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec6_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec7"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec7_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Human &amp; Social Sciences Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec7_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec8"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec8_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Mathematics Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec8_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSec9"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_mit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewSec9_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="Physics Courses for High School"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewSec9_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <TextView
+                android:text="FOR COLLEGE/UNIVERSITY STUDENTS..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:id="@+id/textViewUni1"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/viewThick"
+                android:background="#ffc1c1c1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:text="Download textbooks for free:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutUni1"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:src="@drawable/logo_collegeopentextbooks"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewUni1_1"
+                    android:background="#ffffffff" />
+                <TextView
+                    android:text="College Open Textbooks"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewUni1_1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#fff8f8f8" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+            <TextView
+                android:text="Access full course contents:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCategoryHeader"
+                android:textColor="#ffc1c1c1"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="bottom" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutUni2"
+                android:layout_margin="8dp">
+                <View
+                    android:id="@+id/viewIndenter"
+                    android:layout_width="10dp"
+                    android:layout_height="fill_parent" />
+                <ExpandableListView
+                    android:id="@+id/expandableListViewUni"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:id="@+id/viewThin"
+                android:background="#abe4e4e4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

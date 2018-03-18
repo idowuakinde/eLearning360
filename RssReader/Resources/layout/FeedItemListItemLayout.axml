@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imazhi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:src="@drawable/logo_mit"
+            android:contentDescription=""
+            android:layout_gravity="center"
+            android:background="#ffffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Title"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="top"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/creator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculty Name"
+            android:textSize="12dp"
+            android:textColor="#808080"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+        <TextView
+            android:id="@+id/pubDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publication Date"
+            android:textSize="12dp"
+            android:padding="2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/btnImgForward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:src="@drawable/ico_forward" />
+    </LinearLayout>
+</LinearLayout>
